@@ -104,6 +104,15 @@
                                     <rect key="frame" x="23" y="100" width="318" height="48"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMF-BJ-sKh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="156" width="161" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="OlO-TG-LxI"/>
                                 <exclude reference="HBB-6Q-ULo"/>
                                 <exclude reference="hyn-fG-He8"/>
+                                <exclude reference="uMF-BJ-sKh"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="OlO-TG-LxI"/>
                                 <include reference="HBB-6Q-ULo"/>
                                 <include reference="hyn-fG-He8"/>
+                                <include reference="uMF-BJ-sKh"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="CZB-PY-nLi" id="zFs-28-sAI"/>
                         <outlet property="mailBtn" destination="HBB-6Q-ULo" id="xfG-Fp-cts"/>
                         <outlet property="messagelabel" destination="hyn-fG-He8" id="Tor-m4-v06"/>
+                        <outlet property="nameLabel" destination="uMF-BJ-sKh" id="bHL-Le-SiE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -153,6 +165,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3r-Xt-icI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-627" y="136"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7zZ-sH-w8R">
+            <objects>
+                <viewController id="Xk6-B0-cEj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iZf-kQ-2sy"/>
+                        <viewControllerLayoutGuide type="bottom" id="VlW-WK-eFv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MsK-VY-q2T">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MQP-b0-Z2n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
